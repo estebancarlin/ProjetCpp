@@ -28,18 +28,28 @@ The project was developed as part of a coursework at Ecole Centrale Marseille. T
 ## Project Structure
 C++-Project/
 ├── src/
-│ ├── Adherent.cpp / .h
-│ ├── Album.cpp / .h
-│ ├── BD.cpp / .h
-│ ├── Bibliotheque.cpp / .h
-│ ├── ListeLivres.cpp / .h
-│ ├── Livre.cpp / .h
+│ ├── Adherent.cpp
+│ ├── Adherent.h
+│ ├── Album.cpp
+│ ├── Album.h
+│ ├── BD.cpp
+│ ├── BD.h
+│ ├── Bibliotheque.cpp
+│ ├── Bibliotheque.h
+│ ├── ListeLivres.cpp
+│ ├── ListeLivres.h
+│ ├── Livre.cpp
+│ ├── Livre.h
 │ ├── main.cpp
-│ ├── Noeud.cpp / .h
+│ ├── Noeud.cpp
+│ ├── Noeud.h
 │ ├── NotFoundException.h
-│ ├── Piece_Theatre.cpp / .h
-│ ├── Recueil_Poesie.cpp / .h
-│ ├── Roman.cpp / .h
+│ ├── Piece_Theatre.cpp
+│ ├── Piece_Theatre.h
+│ ├── Recueil_Poesie.cpp
+│ ├── Recueil_Poesie.h
+│ ├── Roman.cpp
+│ ├── Roman.h
 ├── .project
 ├── .cproject
 
