@@ -4,7 +4,7 @@
 
 This project is a **Library Management System** developed in C++. It provides an object-oriented simulation of a library containing different types of books (novels, poetry collections, plays, albums, comics, etc.) and the associated functionalities to manage them. Users (referred to as *Adherents*) can borrow and return books, and the system handles internal data structures for organizing and searching through these items.
 
-The project was developed as part of a coursework at Centrale Marseille.
+The project was developed as part of a coursework at Ecole Centrale Marseille. The content is mostly in french.
 
 ---
 
