@@ -10,18 +10,21 @@ The project was developed as part of a coursework at Ecole Centrale Marseille. T
 
 ## Features
 
-- Object-oriented design with inheritance and polymorphism
-- Management of various book types:
+- Fully object-oriented architecture using inheritance and polymorphism
+- Representation and management of various literary formats:
   - `Roman` (Novel)
   - `Recueil_Poesie` (Poetry Collection)
   - `Piece_Theatre` (Play)
   - `Album` (Picture Book)
   - `BD` (Comic Book)
-- User (Adherent) management
-- A `Bibliotheque` class to manage the global system
-- A `ListeLivres` class to organize books
-- Exception handling via `NotFoundException`
-- Structured into header (`.h`) and implementation (`.cpp`) files
+- User account management via the `Adherent` class
+- Centralized library control through the `Bibliotheque` class
+- Book collection management using the `ListeLivres` class (internally structured as a linked list via `Noeud`)
+- Book base class: `Livre`, from which all types inherit
+- Custom exception handling through `NotFoundException`
+- Clearly separated interface and implementation:
+  - Header files (`.h`)
+  - Source files (`.cpp`)
 
 ---
 ```
